@@ -15,11 +15,9 @@ namespace HelloWorldApplication
         /// </summary>
         private static void GreetFunction()
         {
-            Console.WriteLine("Please enter your name:");
+            Console.Write("Please enter your name:");
             string firstName = Console.ReadLine();
-            Console.WriteLine(String.Format("Hello {0}. Welcome to visual studio.", firstName ));
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadKey();
+            Console.WriteLine(String.Format("Hello {0}. Welcome to visual studio.", firstName ));            
         }
 
         /// <summary>
